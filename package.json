@@ -1,6 +1,6 @@
 {
   "name": "temperjs-website",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Documentation website for Temper library",
   "private": true,
   "homepage": "https://temperjs.org",
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp CNAME build/CNAME",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build -b pages -m v$npm_package_version"
