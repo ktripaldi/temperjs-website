@@ -1,9 +1,9 @@
 {
   "name": "temperjs-website",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Documentation website for Temper library",
   "private": true,
-  "homepage": "http://ktripaldi.github.io/temperjs-website",
+  "homepage": "https://temperjs.org",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b pages -m v$npm_package_version"
   },
   "eslintConfig": {
     "extends": "react-app"
