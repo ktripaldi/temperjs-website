@@ -1,96 +1,96 @@
 module.exports = {
-  title: 'Temper',
-  tagline: 'State management for React, made simple.',
-  url: 'https://temperjs.org',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
-  organizationName: 'ktripaldi',
-  projectName: 'Temper',
+  title: "Temper",
+  tagline: "State management for React, made simple.",
+  url: "https://temperjs.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  favicon: "img/favicon.ico",
+  organizationName: "ktripaldi",
+  projectName: "Temper",
   themeConfig: {
-    defaultMode: 'light',
+    defaultMode: "light",
     switchConfig: {
-      darkIcon: '🔅',
-      lightIcon: '🔆️'
+      darkIcon: "🔅",
+      lightIcon: "🔆️",
     },
     navbar: {
-      title: 'Temper',
+      title: "Temper",
       logo: {
-        alt: 'Temper Logo',
-        src: 'img/logo.svg',
+        alt: "Temper Logo",
+        src: "img/logo.svg",
       },
       items: [
         {
-          to: 'docs/core_concepts',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "docs/core_concepts",
+          activeBasePath: "docs",
+          label: "Docs",
+          position: "left",
         },
         {
-          href: 'https://github.com/ktripaldi/temperjs',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/ktripaldi/temperjs",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'light',
+      style: "light",
       links: [
         {
-          title: 'Learn',
+          title: "Learn",
           items: [
             {
-              label: 'Core Concepts',
-              to: 'docs/core_concepts',
+              label: "Core Concepts",
+              to: "docs/core_concepts",
             },
           ],
         },
         {
-          title: 'Use',
+          title: "Use",
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/getting_started',
+              label: "Getting Started",
+              to: "docs/getting_started",
             },
           ],
         },
         {
-          title: 'Help',
+          title: "Help",
           items: [
             {
-              label: 'Contributing',
-              to: 'docs/contributing',
+              label: "Contributing",
+              to: "docs/contributing",
             },
           ],
         },
       ],
-      copyright: `<img class="logo" src='/static/img/logo.svg' /><p>Copyright © ${new Date().getFullYear()} Kenderson Tripaldi</p>`,
+      copyright: `<img class="logo" src='/img/logo.svg' /><p>Copyright © ${new Date().getFullYear()} Kenderson Tripaldi</p>`,
     },
     prism: {
-      theme: require('prism-react-renderer/themes/oceanicNext')
-    }
+      theme: require("prism-react-renderer/themes/oceanicNext"),
+    },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
   ],
-  themes: ['@docusaurus/theme-live-codeblock']
+  themes: ["@docusaurus/theme-live-codeblock"],
 };
