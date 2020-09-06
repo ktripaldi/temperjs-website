@@ -6108,6 +6108,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://npm.ors.it:4873/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -9523,10 +9528,12 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-temperjs@^0.2.2:
-  version "0.2.2"
-  resolved "https://npm.ors.it:4873/temperjs/-/temperjs-0.2.2.tgz#0e5d45b419d2c75287f27fe89a8c7e05c29e00a4"
-  integrity sha512-cdKz9REYYW9kB7izH+swf/XpCwJshnDX6DfS4zCC0KE+XGn8EaCn3UwCllFYOBBUqY/zKLiDwTmu/25yxJhLxQ==
+temperjs@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.npmjs.org/temperjs/-/temperjs-0.4.1.tgz#9fd9cfc26fe4ddaad8d5efdc8a197c01846459eb"
+  integrity sha512-U4aBNQ+jOEUXRxG+qrpgipDgDhgvtxMrHvQyHAYKNqOMixo5+VzwYVvXnUXhlfZm2LRAhXHlY+foSLXPfjhsvQ==
+  dependencies:
+    lodash-es "^4.17.15"
 
 term-size@^2.1.0:
   version "2.2.0"

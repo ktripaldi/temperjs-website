@@ -18,7 +18,7 @@
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "temperjs": "^0.2.2"
+    "temperjs": "^0.4.1"
   },
   "browserslist": {
     "production": [
