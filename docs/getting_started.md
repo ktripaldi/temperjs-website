@@ -125,6 +125,7 @@ export default withTemper(App);
 :::caution
 Selectors **permanently** depend on their reference Trait.
 When the reference Trait changes, the selector value is updated **automatically**.
+Therefore, **you cannot manually update selectors once set**, since their value tightly depends on their base Trait.
 :::
 
 ## Nested Traits
