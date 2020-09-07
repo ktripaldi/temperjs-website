@@ -9528,10 +9528,10 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-temperjs@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.npmjs.org/temperjs/-/temperjs-0.4.1.tgz#9fd9cfc26fe4ddaad8d5efdc8a197c01846459eb"
-  integrity sha512-U4aBNQ+jOEUXRxG+qrpgipDgDhgvtxMrHvQyHAYKNqOMixo5+VzwYVvXnUXhlfZm2LRAhXHlY+foSLXPfjhsvQ==
+temperjs@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.npmjs.org/temperjs/-/temperjs-0.4.2.tgz#b33463a4a015bf20f675aba7018549c0628d0bc9"
+  integrity sha512-1B3ETNH/eeQNCFH+ZvEla3g0AHqLpG1YHUt9H4k0xwQFDoNHwpAZFi+VDue8lJANLFuEA8PxtiCUnN2nn3iqeA==
   dependencies:
     lodash-es "^4.17.15"
 
