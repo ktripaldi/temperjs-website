@@ -44,6 +44,7 @@ setTrait('circleArea', ({ get }) => Math.pow(get('radius'), 2) * Math.PI);
 :::caution
 Selectors **permanently** depend on their reference Trait.
 When the reference Trait changes, the selector value is updated **automatically**.
+Therefore, **you cannot manually update selectors once set**, since their value tightly depends on their base Trait.
 :::
 
 Selectors can also have multiple reference Traits.
